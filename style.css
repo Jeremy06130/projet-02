@@ -1,3 +1,11 @@
+/* Document
+   ========================================================================== */
+
+/**
+
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
 /*header*/
 html 
 {
@@ -6,15 +14,24 @@ html
   scroll-behavior: smooth;
 }
 
-* 
+*
 {
   box-sizing: border-box;
 } 
+
 header
 {
 	display: flex;
 	justify-content: space-around;
 	margin-top: 5px;
+}
+
+.header_img 
+{
+  display: flex;
+  justify-content: flex-start;
+  height: 45px;
+  margin: 50px 0px 0px -100px;
 }
 
 body 
@@ -25,70 +42,91 @@ body
   padding: 0px;
 }
 
-main {
+main 
+{
   margin: 0px 10px 0px 40px;
 }
 
-#header_nav
+.header_nav
 {
-    list-style-type: none;	
+  list-style-type: none;	
 	display: flex;
-    margin: 0px;
+  margin: -50px;
 	font-size: 15px;
-    padding: 0px;
+  padding: 0px;
 }
 
-#li_nav
+.li_nav
 {
 	font-size: 15px;
-    padding-top: 60px;
-    box-sizing: border-box solid;
+  padding-top: 60px;
+  box-sizing: border-box solid;
 
 }
 
-#barre_recherche
+.category 
+{
+  box-sizing: border-box;
+  
+  display: flex;
+
+  margin-top: 30px;
+  margin: 0px;
+
+	font-size: 15px;
+  padding: 0px;
+}
+
+.barre_recherche
 {
  	display: flex;
  	justify-content: flex-start;
  	color: #F2F2F2;
 }
 
-#li_effect
+.li_effect
 {
+	box-sizing: border-box;
 
 	padding-top: 50px;
 	padding-left: 20px;
 	padding-right: 20px;
 
-    display: block;
+  display: block;
 	text-align: center;
 	border-bottom: 5px solid #F2F2F2;
 }
 
 
-#liste_filtre
+.liste_filtre
 {
+  box-sizing: border-box;
+
 	display: flex;
-	justify-content: space-between;
-	flex-direction: row;
-	flex-wrap: wrap;
+  flex-direction: row;
+	justify-content: space-around;
+
 }
 
-#effet_filtre
+.effet_filtre
 {
 	box-sizing: border-box;
 
 	display: flex;
 	flex-direction: row;
 
-	  color: lightskyblue;
+	  color: black;
       cursor: pointer;
       -ms-transform: scale(1.1);
       -webkit-transform: scale(1.1); 
       transform: scale(1.1);
       transition: 0.2s;
 }
-
+.je-solid, .fas
+ {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
 .filtre_eco 
 {
   font-size: 20px;
@@ -111,6 +149,40 @@ main {
   position: relative;
 
   z-index: 0;
+/*version moxilla fox*/
+    background-color: #DEEBFF;
+    border-radius: 50px 50px 50px 50px;
+
+    color: #0065FC;
+    font-size: 20px;
+
+    padding: 16px;
+    padding-left: 15.5px;
+    padding-right: 15.5px;
+
+    margin-top: 21px;
+    margin-bottom: 21px;
+    margin-right: -50px;
+
+    position: relative;
+
+    z-index: 1;
+}
+/*icône filtre economie*/
+.je-eco
+ {
+  background-color: #DEEBFF;
+  border-radius: 50px 50px 50px 50px;
+  color: #0065FC;
+  font-size: 20px;
+  padding: 16px;
+  padding-left: 15.5px;
+  padding-right: 15.5px;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  margin-right: -50px;
+  position: relative;
+  z-index: 1;
 }
 
 .filtre_famille 
@@ -135,6 +207,41 @@ main {
   position: relative;
 
   z-index: 0;
+/*version moxilla fox*/
+    background-color: #DEEBFF;
+    border-radius: 50px 50px 50px 50px;
+
+    color: #0065FC;
+    font-size: 20px;
+
+    padding: 16px;
+    padding-left: 15.5px;
+    padding-right: 15.5px;
+
+    margin-top: 21px;
+    margin-bottom: 21px;
+    margin-right: -50px;
+
+    position: relative;
+
+    z-index: 1;
+}
+
+/*icône filtre famille*/
+.je-famille
+{
+  background-color: #DEEBFF;
+  border-radius: 50px 50px 50px 50px;
+  color: #0065FC;
+  font-size: 20px;
+  padding: 15px;
+  padding-left: 19px;
+  padding-right: 19px;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  margin-right: -50px;
+  position: relative;
+  z-index: 1;
 }
 
 .fitre_romantique
@@ -143,9 +250,9 @@ main {
   font-weight: bold;
 
   border: 3px solid #F2F2F2;
-    border-left-color: rgb(242, 242, 242);
-    border-left-style: solid;
-    border-left-width: 3px;
+  border-left-color: rgb(242, 242, 242);
+  border-left-style: solid;
+  border-left-width: 3px;
   
   border-left: none;
   border-radius: 50px 50px 50px 50px;
@@ -159,6 +266,41 @@ main {
   position: relative;
 
   z-index: 0;
+/*version moxilla fox*/
+    background-color: #DEEBFF;
+    border-radius: 50px 50px 50px 50px;
+    
+    color: #0065FC;
+    font-size: 20px;
+    
+    padding: 16px;
+    padding-left: 15.5px;
+    padding-right: 15.5px;
+    
+    margin-top: 21px;
+    margin-bottom: 21px;
+    margin-right: -50px;
+    
+    position: relative;
+    
+    z-index: 1;
+}
+
+/*icône filtre romantique*/
+.je-romantique
+ {
+  background-color: #DEEBFF;
+  color: #0065FC;
+  font-size: 20px;
+  border-radius: 50px 50px 50px 50px;
+  padding: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  margin-right: -50px;
+  position: relative;
+  z-index: 1;
 }
 
 .filtre_animaux
@@ -167,9 +309,9 @@ main {
   font-weight: bold;
 
   border: 3px solid #F2F2F2;
-    border-left-color: rgb(242, 242, 242);
-    border-left-style: solid;
-    border-left-width: 3px;
+  border-left-color: rgb(242, 242, 242);
+  border-left-style: solid;
+  border-left-width: 3px;
 
   border-left: none;
   border-radius: 50px 50px 50px 50px;
@@ -183,8 +325,39 @@ main {
   position: relative;
 
   z-index: 0;
+  /*version moxilla fox*/
+background-color: #DEEBFF;
+border-radius: 50px 50px 50px 50px;
+color: #0065FC;
+font-size: 20px;
+padding: 16px;
+padding-left: 15.5px;
+padding-right: 15.5px;
+margin-top: 21px;
+margin-bottom: 21px;
+margin-right: -50px;
+position: relative;
+z-index: 1;
 }
-button
+/*icône filtre animaux*/
+.je-animaux 
+{
+  background-color: #DEEBFF;
+  color: #0065FC;
+  font-size: 20px;
+  border-radius: 50px 50px 50px 50px;
+  padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 12px;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  margin-right: -50px;
+  position: relative;
+  z-index: 1;
+}
+
+.button
 {
   padding: 8px;
   background-color: #F2F2F2;
@@ -192,6 +365,31 @@ button
   border: 0px solid #F2F2F2;
   border-radius: 0px 10px 10px 0px
 }
+
+button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] 
+  {
+    -webkit-appearance: button;
+  }
+
+button,
+input 
+{ 
+  overflow: visible;
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15;
+  margin: 0;
+}
+button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring 
+  {
+    outline: 1px dotted ButtonText;
+  }
 
 h1
 {
@@ -205,7 +403,7 @@ h2
   font-weight: bold;
 } 
 
-img 
+.img 
 {
     border-style: none;
 }
@@ -217,7 +415,7 @@ button,input,optgroup,select,textarea
     line-height: 1.15;
     margin: 0;
 }
- #info 
+.info 
 {
       width: 100%;
       font-size: 20px;
@@ -226,7 +424,7 @@ button,input,optgroup,select,textarea
       margin-top: 30px;
 }
 
-.fa-info 
+.je-info 
 {
       padding-left: 15px;
       padding-right: 15px;
@@ -238,13 +436,30 @@ button,input,optgroup,select,textarea
       position: relative;
 
       bottom: 10px;	
+      color: #0065FC;
+      font-size: 17px;
+      font-weight: bold;
+}
+
+.je-info::before 
+{
+  content: "\f129";
+}
+
+input 
+{
+  padding: 12px;
+  width: 250px;
+  border: 1px solid #F2F2F2;
+  color: #000000;
+  outline: none;
 }
 
 footer
 {
   	display:flex;
   	flex-direction: row;
-  	justify-content: space-around;
+
 
   	background-color: lightgrey;
 
@@ -253,14 +468,14 @@ footer
     padding-left: 40px;
 }
 
-#foot_column 
+.foot_column 
 {
   width: 30.5%;
   margin-right: 4px;
   width: 100%;
 }
 
-#foot_li 
+.foot_li 
 {
   display: flex;
   flex-direction: column;
@@ -271,15 +486,223 @@ footer
   padding-left: 0px;
 }
 
-#foot_padding_li
+.foot_padding_li
 {
 padding-bottom: 14px;
+list-style-type: none;
 }
 
- #a
+a
  {
   background-color: transparent;
   text-decoration: none;
-  color: blue;
+  color: black;
  }
 
+ textarea 
+ {
+  overflow: auto;
+}
+
+ legend 
+ {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+progress 
+{
+  vertical-align: baseline;
+}
+
+/*formulaire de recherche desktop et tab*/
+.search_DeskTab {
+  padding: 13px;
+  position: relative;
+  right: 6px;
+}
+input {
+  padding: 12px;
+  width: 250px;
+  border: 1px solid #F2F2F2;
+  color: #000000;
+}
+button {
+  padding: 8px;
+  background-color: #0065FC;
+  color: white;
+  border: 0px solid #F2F2F2;
+  border-radius: 0px 10px 10px 0px;
+}
+
+
+@media screen and (min-width: 992px) 
+{
+  /**version desktop à partir de 992px**/ 
+.page 
+{
+   max-width: 1440px;
+   margin: auto;
+}
+h2 
+{
+   font-size: x-large;
+}
+      h3 {
+        font-size: 23px;
+      }
+
+/*effet de survol du navigateur*/
+.li_effect:hover {
+        color: #0065FC;
+        border-top: 3px solid;
+      } 
+
+/*phrase d'introduction*/
+      .phrase_intro {
+        font-size: 16px;
+      }
+/*icone barre de recherche*/
+      .je-location 
+      {
+        border: 2px solid #F2F2F2;
+        background-color: #F2F2F2;
+        padding: 12.5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 10px 0px 0px 10px;
+        position: relative;
+        left: 5px;
+        top: 0.4px;
+      }
+  /*disposition partie filtres*/
+      .category 
+      {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 30px;
+      }
+      .liste_filtre {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        margin-left: 25px;
+        margin-top: -8px;
+      }
+      .effet_filtre:hover 
+      {
+        color: lightskyblue;
+        cursor: pointer;
+        -ms-transform: scale(1.1); /* IE 9 */
+      -webkit-transform: scale(1.1); /* Safari 3-8 */
+      transform: scale(1.1);
+      transition: 0.2s;
+      }
+
+  /*icone loupe désactivée*/
+      .search_phone {
+        display: none;
+      }
+  /*gestion ligne d'information*/
+      #info {
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+      }
+    }  
+@media screen and (min-width: 768px) and (max-width: 991px) {  
+  body {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+  }
+  main {
+    margin-right: 18px;
+  }
+  h2 {
+    font-size: x-large;
+  }
+  header {
+    margin-top: 4px;
+  }
+/*navigateur*/
+  
+  .header_img {
+    height: 90px;
+  }
+  .li_effect:active {
+    color: #0065FC;
+    border-top: 4px solid;
+    margin-bottom: -2px;
+    margin-top: -4px;
+  }
+/*phrase d'introduction*/
+  .phrase_intro {
+    font-size: 16px;
+  } 
+/*icône barre de recherche*/
+  .je-location {
+    border: 2px solid #F2F2F2;
+    background-color: #F2F2F2;
+    padding: 12.9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px 0px 0px 10px;
+    position: relative;
+    left: 5px;
+    top: 0.5px;
+  }
+  .name-form {
+  font-weight: bold;
+  }
+  .search_phone {
+    display: none;
+  }
+/*les filtres*/
+  .category {
+    margin-top: 60px;
+    line-height: 10%;
+  }
+  .liste_filtre {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .filtre_eco, .fitre_romantique {
+    width: 205px;
+    padding-top: 23px;
+  }
+  .filtre_famille {
+    width: 165px;
+    padding-top: 23px;
+  }
+  .filtre_animaux {
+    width: 270px;
+    padding-top: 23px;
+  }
+  .effet_filtre:active {
+    color: lightskyblue;
+    cursor: pointer;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    transition: 0.2s;
+  }
+
+/*ligne d'informations*/
+  .je-info {
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .info {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+}  
