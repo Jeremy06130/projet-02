@@ -1,0 +1,280 @@
+/*partie haute centrale du site*/
+body {
+  max-width: 1500px;
+  margin: auto;
+}
+
+.milieu_h_page {
+  width: 98%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.Hebergement_marseille {
+  width: 66%;
+
+  background-color: #f2f2f2;
+
+  padding: 2%;
+
+  border-radius: 15px 15px 15px 15px;
+}
+
+.boite_carte_Heb {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding-bottom: 2%;
+  margin-top: -10px;
+}
+
+.Carte_Hebergement {
+  width: 32%;
+  height: 200px;
+  margin-top: 20px;
+  background-color: white;
+  border: 4px solid white;
+  border-radius: 17px 17px 17px 17px;
+  box-shadow: 4px 4px 6px #e6e6e6;
+}
+
+.Image_Heb_Marseille {
+  width: 100%;
+  height: 107px;
+
+  object-fit: cover;
+
+  border-radius: 13px 13px 0px 0px;
+
+  border-style: none;
+}
+
+.title_carte_Hebergement {
+  font-weight: bold;
+
+  padding-top: 2%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+
+  object-fit: fill;
+}
+
+.Prix_Hebergement {
+  font-size: smaller;
+
+  padding-left: 3%;
+
+  object-fit: fill;
+}
+
+.etoiles {
+  display: flex;
+  padding-left: 3%;
+}
+
+.etoile_bleu {
+  color: #0065fc;
+}
+
+.etoile_gris {
+  color: #f2f2f2;
+}
+
+/*Les populaires*/
+
+/*boite les populaire*/
+.populaires {
+  width: 30%;
+  background-color: #f2f2f2;
+  padding-top: 2%;
+  padding-left: 2%;
+  border-radius: 15px 15px 15px 15px;
+}
+
+/*position icone*/
+.Pop_icone {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*titre boite populaires*/
+.Title_populaires {
+  font-size: 20px;
+}
+
+/*icone fleche populaire*/
+.fleche {
+  font-size: 20px;
+  border-bottom: solid 3px;
+  border-left: solid 3px;
+  padding-left: 3px
+}
+
+/*carte populaire*/
+.carte_populaires {
+  width: 90%;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  object-fit: fill;
+  margin-top: 4%;
+  margin-bottom: 3%;
+  background-color: white;
+  border: 4px solid white;
+  border-radius: 17px 17px 17px 17px;
+  box-shadow: 4px 4px 6px #e6e6e6;
+}
+
+.a_pop {
+  display: flex;
+}
+
+/*position image Populaire (coté gauche)*/
+.image_Carte_pop {
+  width: 39%;
+  object-fit: fill;
+}
+
+/*taille image populaire (coté gauche)*/
+.image_pop {
+  width: 100%;
+  height: 132px;
+  object-fit: cover;
+  border-radius: 13px 0px 0px 13px;
+}
+
+/*position contenue (coté droit)*/
+.contenue_carte_pop {
+  width: 62%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 7px;
+  object-fit: fill;
+}
+
+/*titre carte populaire (coté droite)*/
+.title_pop_carte {
+  font-weight: bold;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  padding-left: 4px;
+  object-fit: fill;
+}
+
+/*Prix carte populaire (coté droite)*/
+.Prix_pop_carte {
+  font-size: smaller;
+  padding-left: 4px;
+  object-fit: fill;
+}
+
+/*Etoile carte populaire*/
+.etoiles_carte_pop {
+  display: flex;
+  flex-direction: row;
+  padding-top: 35px;
+  padding-left: 4px;
+}
+
+/*partie bas du bloc centrale*/
+/*titre bloc activité*/
+.title_activite {
+  font-size: 20px;
+}
+
+/*position des cartes activités*/
+.boite_act_marseille {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  height: 520px;
+}
+
+/*titre des cartes*/
+.title_carte_act_marseille {
+  font-weight: bold;
+  padding-left:  13px;
+}
+
+/*carte activité : grande taille*/
+.Carte_act_marseille_G {
+  width: 23%;
+  height: 460px;
+  margin-top: 10px;
+  margin-right: 2%;
+  background-color: white;
+  border-radius: 17px 17px 17px 17px;
+  box-shadow: 4px 4px 15px #e6e6e6;
+}
+
+/*image carte activité*/
+.Act_image_Marseille {
+  width: 100%;
+  height: 385px;
+  object-fit: cover;
+  border-radius: 13px 13px 0px 0px;
+}
+
+/*Colonne boite 2 images*/
+.Carte_act_marseille_deux {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 2%;
+}
+
+/*carte activité : taille 2 tiers*/
+.deux_tiers {
+  width: 100%;
+  height: 270px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 17px 17px 17px 17px;
+  box-shadow: 4px 4px 15px #e6e6e6;
+}
+
+/*image carte activité 2 tiers*/
+.Act_image_M_deux_T {
+  width: 100%;
+  height: 215px;
+  object-fit: cover;
+  border-radius: 13px 13px 0px 0px;
+}
+
+/*carte activité : taille 1 tiers*/
+.un_tiers {
+  width: 100%;
+  height: 170px;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 17px 17px 17px 17px;
+  box-shadow: 4px 4px 15px #e6e6e6;
+}
+
+/*image carte activité 1 tiers*/
+.Act_image_M_un_T {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 13px 13px 0px 0px;
+}
+
+/*carte quatre*/
+.Carte_act_marseille_quatre {
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 2%;
+}

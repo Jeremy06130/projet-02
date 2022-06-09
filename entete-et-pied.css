@@ -1,0 +1,251 @@
+/*header*/
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+/*global*/
+body {
+  font-family: "Raleway", Arial, "Arial Black", Impact, "Times New Roman", sans-serif;
+  font-size: 14.5px;
+  margin: 0px;
+  padding: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  margin: 0px 10px 0px 40px;
+}
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+  color: black;
+}
+
+.entete_title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+body {
+  font-family: "Raleway", Arial, "Arial Black", Impact, "Times New Roman", sans-serif;
+  font-size: 14.5px;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*Entete page*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  padding: 0 30px 0 30px;
+}
+
+/*logo site*/
+.header img {
+  height: 75%;
+}
+
+/*partie navigation*/
+.header_nav {
+  list-style-type: none;
+  display: flex;
+  font-size: 15px;
+  padding: 0px;
+  height: 100%;
+  align-items: center;
+}
+
+.li_nav {
+  height: 100%;
+  font-size: 15px;
+  box-sizing: border-box solid;
+  display: flex;
+}
+
+.li_nav a {
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.li_nav:hover {
+  color: #0065fc;
+  border-top: 3px solid;
+}
+
+/*barre de recherche*/
+.barre_recherche {
+  display: flex;
+  justify-content: flex-start;
+  color: #f2f2f2;
+}
+
+/*icone localisation*/
+.fa-location-dot {
+  border: 2px solid #f2f2f2;
+  background-color: #f2f2f2;
+  color: black;
+  padding: 12.5px;
+  padding-right: 12.5px;
+  padding-left: 12.5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 10px 0px 0px 10px;
+  position: relative;
+  left: 5px;
+  top: 0.4px;
+}
+
+/*zone de recherche*/
+input {
+  padding: 12px;
+  width: 250px;
+  border: 1px solid #f2f2f2;
+  color: #000000;
+}
+
+.search_DeskTab {
+  padding: 8px;
+  background-color: #0065fc;
+  color: white;
+  border: 0px solid #f2f2f2;
+  border-radius: 0px 10px 10px 0px;
+  padding: 8px;
+  padding: 13px;
+  position: relative;
+  right: 6px;
+}
+
+.search_DeskTab i {
+  display: none;
+}
+
+/*catégories des filtres*/
+.category {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#filter_title {
+  font-size: 20px;
+  height: fit-content;
+}
+
+/*-les filtres*/
+#liste_filtre {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  gap: 15px
+}
+
+.effet_filtre {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  cursor: pointer;
+  /* transform: scale(1.1); */
+  transition: 0.2s;
+  border: 3px solid #f2f2f2;
+  border-left-color: rgb(242, 242, 242);
+  border-left-style: solid;
+  border-left-width: 3px;
+  border-left: none;
+  border-radius: 50px 50px 50px 50px;
+  height: 50px;
+  align-items: center;
+  padding-right: 10px;
+}
+
+/*filtre : texte général*/
+.effet_filtre p {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 15px;
+  position: relative;
+}
+
+/*filtre : icône général*/
+.effet_filtre i {
+  background-color: #deebff;
+  border-radius: 50%;
+  color: #0065fc;
+  font-size: 20px;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ligne info*/
+.info {
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+/*icone info*/
+.fa-info {
+  color: #0065fc;
+  font-size: 17px;
+  font-weight: bold;
+  border: 2px solid #f2f2f2;
+  border-radius: 50px;
+  padding: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-bottom: 7px;
+  padding-left: 11px;
+  padding-right: 11px;
+  margin-right: 10px;
+}
+
+/*footer (pied de page)*/
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: lightgrey;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+
+.title_footer {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.foot_column {
+  width: 30.5%;
+  margin-right: 4px;
+  width: 100_;
+}
+
+.foot_li {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.foot_padding_li {
+  padding-bottom: 14px;
+  list-style-type: none;
+}

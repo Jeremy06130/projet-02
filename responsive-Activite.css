@@ -1,0 +1,74 @@
+/*style smartphones et petites tablettes en portrait*/
+@media screen and (min-width: 320px) and (max-width: 740px) {
+
+  /*activité*/
+  /*position des cartes activités*/
+  .boite_act_marseille {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*titre des cartes*/
+  .title_carte_act_marseille {
+    font-size: 16px;
+    justify-content: safe;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 13px;
+  }
+
+  /*carte activité : grande taille*/
+  .Carte_act_marseille_G {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 15px 15px;
+  }
+
+  /*image carte activité*/
+  .Act_image_Marseille {
+    width: 100%;
+    height: 155px;
+  }
+
+  /*Colonne boite 2 images*/
+  .Carte_act_marseille_deux {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 15px 15px;
+  }
+
+  /*carte activité : taille 2 tiers*/
+  .deux_tiers {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 15px 15px;
+  }
+
+  /*image carte activité 2 tiers*/
+  .Act_image_M_deux_T {
+    width: 100%;
+    height: 155px;
+  }
+
+  /*carte activité : taille 1 tiers*/
+  .un_tiers {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 15px 15px;
+  }
+
+  /*image carte activité 1 tiers*/
+  .Act_image_M_un_T {
+    width: 100%;
+    height: 155px;
+  }
+
+  /*carte quatre*/
+  .Carte_act_marseille_quatre {
+    width: 100%;
+    height: auto;
+    border-radius: 15px 15px 15px 15px;
+  }
+}
