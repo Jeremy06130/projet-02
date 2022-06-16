@@ -103,6 +103,7 @@ body {
   width: 95%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 /*titre boite populaires*/
@@ -113,8 +114,6 @@ body {
 /*icone fleche populaire*/
 .fleche {
   font-size: 20px;
-  border-bottom: solid 3px;
-  border-left: solid 3px;
   padding-left: 3px
 }
 
